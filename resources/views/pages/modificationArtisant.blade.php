@@ -4,7 +4,7 @@
 
 <div class="alert alert-success form-inline my-2 my-lg-0 row">
   <div class="col-sm-10">
-    <h2 class="">Modification d'un Artisant</h2>
+    <h2 class="">Modification d'un Artisan</h2>
   </div>
   <div style="float: right;" class="col-sm-2">
     <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalEditEditMetier" >Créer un Métier</button>
@@ -34,7 +34,7 @@
     <div class="row">
       <div class="col">
         <div class="form-group">
-          <label for="numArtisant">Numero Artisant</label>
+          <label for="numArtisant">Numero Artisan</label>
           <input type="text" name="numArtisant" value="{{$artisant->num}}" class="form-control-sm form-control" id="numArtisant" placeholder="25469102458001" required maxlength="14" minlength="14" pattern="[0-9]{14}">
 
           <label for="name">Nom ou Nom de la société</label>

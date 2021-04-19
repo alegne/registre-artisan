@@ -4,13 +4,13 @@
 
 <div class="alert alert-secondary form-inline  row">
     <div class="col-md-8"><h2 >{{$titre ?? 'Titre pas encore definie'}}</h2></div>
-    <div class="col-sm-4 text-center text-md-right"><h2><span class="badge badge-warning">{{$nb." Artisant(s)"}}</span></h2></div>
+    <div class="col-sm-4 text-center text-md-right"><h2><span class="badge badge-warning">{{$nb." Artisan(s)"}}</span></h2></div>
 </div>
 
 <nav>
     <div class="nav nav-tabs" id="nav-tab" role="tablist" style="margin-top: 8px;">
-        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Liste des artisants</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Répartion des Artisants</a>
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Liste des artisans</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Répartion des Artisans</a>
     </div>
 </nav>
 

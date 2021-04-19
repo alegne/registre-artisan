@@ -3,14 +3,14 @@
     <div class="modal-content">
 
       <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLongTitle">Suppression d'un Artisant</h3>
+        <h3 class="modal-title" id="exampleModalLongTitle">Suppression d'un Artisan</h3>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
 
       <div class="modal-body">
-        <h4>Voulez vous vraiment faire la suppression de l'artisant : {{$artisant->name}}</h4>
+        <h4>Voulez vous vraiment faire la suppression de l'artisan : {{$artisant->name}}</h4>
       </div>
 
       <div class="modal-footer">

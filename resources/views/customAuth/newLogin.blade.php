@@ -14,13 +14,16 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card shadow-lg border-0 rounded-lg mt-5">
-                        <div class="text-center"><img src="{{asset('img/mc.jpg')}}" alt="" style="max-width: 350px;  margin-bottom:20px;"><span><h3>Authentification</h3></span></div>
+                        <div class="text-center">
+                            <img src="{{asset('img/mc.jpg')}}" alt="" style="max-width: 350px;  margin-bottom:20px;">
+                            <span><h3>Authentification</h3></span>
+                        </div>
                         <div class="card-body">
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
                                 <div class="form-group">
                                     <label class="small mb-1" for="inputEmailAddress">E-mail</label>
-                                    <input class="form-control py-4 @error('email') is-invalid @enderror"  name="email" value="{{ old('email') }}" required autocomplete="email" autofocus id="inputEmailAddress" type="email" placeholder="Entrez votre E-mail" />
+                                    <input class="form-control py-4 @error('email') is-invalid @enderror"  name="email" value="{{ old('email') }}" required autocomplete="email" autofocus id="inputEmailAddress" type="email" placeholder="Par defaut: admin@artisanat.mg" />
                                     @error('email')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -29,7 +32,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="small mb-1" for="inputPassword">Mot de passe</label>
-                                    <input id="inputPassword" type="password" class="form-control py-4 @error('password') is-invalid @enderror" name="password" required autocomplete="current-password"  placeholder="Entrez votre mot de passe">
+                                    <input id="inputPassword" type="password" class="form-control py-4 @error('password') is-invalid @enderror" name="password" required autocomplete="current-password"  placeholder="Par defaut: password">
                                     @error('password')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>

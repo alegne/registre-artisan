@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title>Registre Artisant</title>
+        <title>Registre Artisan</title>
         <meta charset="utf-8">
 
         <link rel="icon" type="image/jpeg" href="{{ asset('img/mica.jpg') }}">
@@ -121,7 +121,7 @@
                       <button type="button" class="btn btn-success">Création</button>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{route('createArtisant')}}"><button type="button" class="btn btn-primary">Nouvel Artisant</button></a> 
+                        <a class="dropdown-item" href="{{route('createArtisant')}}"><button type="button" class="btn btn-primary">Nouvel Artisan</button></a> 
                         <a class="dropdown-item" href="{{route('createMetier')}}"><button type="button" class="btn btn-warning">Régistre Métier</button></a>
                     </div>
                   </li>
